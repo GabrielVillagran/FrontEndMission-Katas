@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> El Taconmadre </title>
+</head>
+
+<body>
+    <h1>
+        <hr>Aqui se realizara tu pedido</hr>
+    </h1>
+    <form action="pedido.js">
+        <label for="Nombre"> Danos tu nombre taquiamigo: <br></label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br> <br>
+        <label for="Nombre"> <hr>Cual es tu numero de mesa (Mira en tu servilletero): </hr><br></label>
+        <input type="number" id="nMesa" name="nMesa" placeholder="Mesa">
+        <p>Pedido para llevar?</p>
+        <input type="radio" id="aqui" name="envioPedido" placeholder="Si">
+        <label for="aqui"> Se comera aqui </label> <br>
+        <input type="radio" id="llevar" name="envioPedido" placeholder="No">
+        <label for="aqui"> Se requiere envio (para llevar) </label> <br>
+        <hr>
+        <p>Tacos a ordenar: </p>
+        <input type="checkbox" id="pastorsan" name="pastorsan" value="Pastorsan">
+        <label for="pastorsan">Tacos Pastorsan= </label>
+        <input type="number" id="pastorsanCantidad" name="pastorsanCantidad" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="tripasama" name="tripasama" value="Tripasama">
+        <label for="tripasama">Tacos Tripasama= </label>
+        <input type="number" id="tripasamaCantidad" name="tripasamaCantidad" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="guagua" name="guagua" value="Guagua">
+        <label for="guagua">Tacos Gugua= </label>
+        <input type="number" id="guaguaCantidad" name="guaguaCantidad" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="chin" name="chin" value="chinChen">
+        <label for="chin">Tacos Chin Cheng= </label>
+        <input type="number" id="chinCantidad" name="chinCantidad" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="chang" name="chang" value="changChin">
+        <label for="chang">Tacos chang chin= </label>
+        <input type="number" id="changCantidad" name="changCantidad" placeholder="Cantidad"><br>
+        </hr>
+        <hr> </hr>
+        <p>Bebidas: </p>
+        <select name="bebida" id="bebida">
+            <option value="Coca-Cola">Coca-Cola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Sprite">Sprite</option>
+            <option value="fresa">Fresa</option>
+            <option value="naranja">Naranja</option>
+            <option value="pina">Piña</option>
+            <option value="hierro">Hierro</option>
+        </select>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
