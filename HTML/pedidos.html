@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/stylePedido.css" rel="stylesheet" type="text/css">
+    <link rel=" icon" type="image/x-icon" href="img/rolling-pin.ico">
+    <title>Pedido de pastel</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="banner"></div>
+        <div class="logo"></div>
+    </div>
+    <div class="armaTxt">Arma tu pastel</div>
+    <div class="cont1">
+        <div class="ribbon"></div>
+        <form action="pedido.js">
+            <p><label for="pan"> Estos son los sabores de pan con el que contamos: </label>
+                <select name="pan" id="pan">
+                    <option value="Vainilla">Vainilla</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Fresa">Fresa</option>
+                    <option value="Marmoleado">Marmoleado (Vainilla y Chocolate)</option>
+                    <option value="Avellana">Avellana</option>
+                    <option value="Coco">Coco</option>
+                    <option value="Vegano">Vegetariano 100% Gluten free</option>
+                </select>
+            </p>
+            <p><label for="adorno"> Estos son los adornos con los que podras adornar tu pastel: </label>
+                <select name="adorno" id="adorno">
+                    <option value="Decoracion">Decoracion especial de vetun normal</option>
+                    <option value="leches">3 leches</option>
+                    <option value="Imagen">Imagen personalizada</option>
+                    <option value="Chispas">Chispas de colores</option>
+                    <option value="Vela">Vela decorativa mágica</option>
+                    <option value="Vetun2">Vetun especial de mantequilla y Decoracion extra</option>
+                    <option value="Ninguno">----------</option>
+                </select>
+                <select name="adorno2" id="adorno2">
+                    <option value="Decoracion">Decoracion especial de vetun normal</option>
+                    <option value="leches">3 leches</option>
+                    <option value="Imagen">Imagen personalizada</option>
+                    <option value="Chispas">Chispas de colores</option>
+                    <option value="Vela">Vela decorativa mágica</option>
+                    <option value="Vetun2">Vetun especial de mantequilla y Decoracion extra</option>
+                    <option value="Ninguno">----------</option>
+                </select>
+                <select name="adorno3" id="adorno3">
+                    <option value="Decoracion">Decoracion especial de vetun normal</option>
+                    <option value="leches">3 leches</option>
+                    <option value="Imagen">Imagen personalizada</option>
+                    <option value="Chispas">Chispas de colores</option>
+                    <option value="Vela">Vela decorativa mágica</option>
+                    <option value="Vetun2">Vetun especial de mantequilla y Decoracion extra</option>
+                    <option value="Ninguno">----------</option>
+                </select>
+            </p>
+            <p><label for="Nombre"> Danos el nombre de la persona que recogera el pastel: </label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Nombre Recoge">
+                <label for="NombreCompra"> Danos el nombre de la persona que compra el pastel: </label>
+                <input type="text" id="NombreCompra" name="NombreCompra" placeholder="Nombre Comprador"></p>
+            <!--  -->
+            <label for="NombreFeli">en caso de ser un regalo, ingresa el nombre de la persona: </label>
+            <input type="text" id="NombreFeli" name="NombreFeli" placeholder="Nombre Felicitacion">
+            <p><label for="tel">Introduzca el numero de telefono: </label>
+                <input type="number" id="tel" name="tel" placeholder="Numero de telefono">
+                <label for="mail">Introduzca su correo electronico: </label>
+                <input type="text" id="mail" name="mail" placeholder="Correo electronico"></p>
+            <hr></hr>
+        </form>
+        <a href="#">
+            <input type="button" class="button" value="Enviar datos y pedido">
+        </a>
+    </div>
+    <a href="./pastelero.html">
+        <input type="button" value="Ver pagina de pastelero (solo es visible para admins)">
+    </a>
+</body>
+
+</html>

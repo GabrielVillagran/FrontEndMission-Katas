@@ -1,0 +1,226 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/background.jpg");
+}
+
+
+/* Encabezado de la pagina */
+
+.header {
+    height: 220px;
+    background-color: rgb(219, 177, 121);
+}
+
+.logo {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("../img/logo.png");
+}
+
+.banner {
+    position: absolute;
+    height: 208px;
+    width: 1536px;
+    top: -1px;
+    background-image: url("../img/banner.jpg");
+    /* opacity: 0.9; */
+}
+
+
+/* Contenido 
+Pasteles listos para llevar */
+
+.readyGo {
+    height: 1050px;
+    background-color: rgb(219, 177, 121);
+    opacity: 0.9;
+}
+
+.readyTxt {
+    position: relative;
+    left: 370px;
+    width: 950px;
+    font-size: 40pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.img1 {
+    position: relative;
+    float: left;
+    top: 10px;
+    width: 375px;
+    height: 300px;
+    background-image: url("../img/cake1.png");
+}
+
+.img2 {
+    position: relative;
+    float: left;
+    top: 50px;
+    width: 356px;
+    height: 252px;
+    background-image: url("../img/cake2.png");
+}
+
+.img2 {
+    position: relative;
+    float: left;
+    left: 60px;
+    top: 50px;
+    width: 356px;
+    height: 252px;
+    background-image: url("../img/cake2.png");
+}
+
+.img3 {
+    position: relative;
+    float: left;
+    left: 120px;
+    width: 300px;
+    height: 300px;
+    background-image: url("../img/cake3.png");
+}
+
+.img4 {
+    position: relative;
+    float: left;
+    left: 200px;
+    top: 50px;
+    width: 300px;
+    height: 260px;
+    background-image: url("../img/cake4.png");
+}
+
+
+/* precios */
+
+.price1 {
+    position: absolute;
+    float: left;
+    top: 620px;
+    left: 75px;
+    width: 200px;
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.price2 {
+    position: absolute;
+    float: left;
+    top: 620px;
+    left: 510px;
+    width: 200px;
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.price3 {
+    position: absolute;
+    float: left;
+    top: 620px;
+    left: 900px;
+    width: 200px;
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.price4 {
+    position: absolute;
+    float: left;
+    top: 620px;
+    left: 1290px;
+    width: 200px;
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+
+/*Adornos*/
+
+.adornosSecc {
+    position: absolute;
+    top: 700px;
+    width: 1530px;
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.adornosTxt {
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    display: flex;
+    font-size: 30pt;
+    /* padding: 20px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.adornosTxt div {
+    margin: 50px;
+    text-align: center;
+}
+
+
+/* adornos precios */
+
+.adornosPrice {
+    position: absolute;
+    top: 860px;
+    left: -80px;
+    display: flex;
+    font-size: 30pt;
+    /* padding: 20px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.adornosPrice div {
+    margin: 100px;
+    width: 200px;
+    left: -100px;
+    text-align: center;
+    border-bottom: 8px solid white;
+}
+
+.direccion {
+    position: absolute;
+    top: 1180px;
+    left: 340px;
+    width: 950px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    position: absolute;
+    width: 600px;
+    top: 1100px;
+    left: 500px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

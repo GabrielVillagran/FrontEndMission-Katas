@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/background.jpg");
+}
+
+
+/* Encabezado de la pagina */
+
+.header {
+    height: 220px;
+    background-color: rgb(219, 177, 121);
+}
+
+.logo {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("../img/logo.png");
+}
+
+.banner {
+    position: absolute;
+    height: 208px;
+    width: 1536px;
+    top: -1px;
+    background-image: url("../img/banner.jpg");
+    /* opacity: 0.9; */
+}
+
+.armaTxt {
+    position: relative;
+    width: 1536px;
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    opacity: 0.9;
+    background-color: rgb(219, 177, 121);
+}
+
+.cont1 {
+    position: relative;
+    height: 500px;
+    width: 1536px;
+    opacity: 0.9;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(219, 177, 121);
+}
+
+.ribbon {
+    position: relative;
+    width: 0px;
+    height: 120px;
+    border-left: 50px solid #d9534f;
+    border-right: 50px solid #d9534f;
+    border-bottom: 35px solid transparent;
+}
+
+.button {
+    position: absolute;
+    width: 600px;
+    top: 400px;
+    left: 500px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
