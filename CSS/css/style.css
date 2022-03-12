@@ -1,0 +1,692 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.introSecc {
+    height: 150px;
+}
+
+.nameLogo {
+    position: absolute;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+    top: 50px;
+    left: 150px;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(131, 131, 131);
+    top: 20px;
+    left: 600px;
+}
+
+.menu div {
+    margin: 30px;
+    text-align: center;
+}
+
+.buster {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(92, 92, 190);
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    top: 40px;
+    left: 1300px;
+    text-align: center;
+    border-radius: 8px
+}
+
+.information {
+    height: 580px;
+    width: 1533px;
+}
+
+.imgVaccine {
+    position: absolute;
+    left: 725px;
+    width: 809px;
+    height: 580px;
+    border: 2px solid black;
+    background-image: url("https://s.yimg.com/ny/api/res/1.2/4Ug0PZer2L3j29LQMQBU2g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU4MC44/https://s.yimg.com/uu/api/res/1.2/KZ4xLfAQYNdA4E7SBfPwpQ--~B/aD03MjY7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/galvanized/d88a2363ef7cb5d919bbb0d9655d5f9b");
+}
+
+.vaxTxt {
+    position: relative;
+    font-size: 50pt;
+    width: 600px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+    left: 90px;
+}
+
+.vaxInf {
+    position: relative;
+    font-size: 20pt;
+    width: 600px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(116, 116, 116);
+    top: 10px;
+    left: 90px;
+}
+
+.vaxImg {
+    position: relative;
+    background-image: url("../img/star.png");
+    top: 40px;
+    left: 90px;
+    width: 600px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.vaxImg2 {
+    position: relative;
+    background-image: url("../img/schedule.png");
+    top: 10px;
+    left: 90px;
+    width: 600px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.vaxImg3 {
+    position: relative;
+    background-image: url("../img/date.png");
+    top: -20px;
+    left: 90px;
+    width: 1118px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.logos {
+    height: 250px;
+}
+
+.astra {
+    position: relative;
+    background-image: url("../img/astra.png");
+    top: 90px;
+    left: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.sino {
+    position: relative;
+    background-image: url("../img/sino.png");
+    top: 2px;
+    left: 400px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.pfizer {
+    position: relative;
+    background-image: url("../img/pfi.png");
+    top: -120px;
+    left: 700px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.moderna {
+    position: relative;
+    background-image: url("../img/moder.png");
+    top: -210px;
+    left: 960px;
+    height: 100px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+.whyVax {
+    height: 510px;
+}
+
+.whyTxt {
+    position: relative;
+    font-size: 30pt;
+    left: 80px;
+    width: 600px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 98);
+}
+
+.whyInf {
+    position: relative;
+    font-size: 15pt;
+    width: 600px;
+    top: 50px;
+    left: 80px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+
+/* benefit 1 */
+
+.ben1 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: 70px;
+    left: 80px;
+}
+
+.ico1 {
+    position: relative;
+    background-image: url("../img/ico1.png");
+    background-repeat: no-repeat;
+    height: 43px;
+}
+
+.head1 {
+    position: relative;
+    font-size: 16pt;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+    top: 30px;
+}
+
+.inf1 {
+    position: relative;
+    font-size: 14pt;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+    top: 60px;
+}
+
+
+/* benefit 2 */
+
+.ben2 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: -233px;
+    left: 450px;
+}
+
+.ico2 {
+    position: relative;
+    background-image: url("../img/ico2.png");
+    background-repeat: no-repeat;
+    height: 43px;
+}
+
+.head2 {
+    position: relative;
+    font-size: 16pt;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+    top: 30px;
+}
+
+.inf2 {
+    position: relative;
+    font-size: 14pt;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+    top: 60px;
+}
+
+
+/* benefit 3 */
+
+.ben3 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: -537px;
+    left: 850px;
+}
+
+.ico3 {
+    position: relative;
+    background-image: url("../img/ico3.png");
+    background-repeat: no-repeat;
+    height: 43px;
+}
+
+.head3 {
+    position: relative;
+    font-size: 16pt;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+    top: 30px;
+}
+
+.inf3 {
+    position: relative;
+    font-size: 14pt;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+    top: 60px;
+}
+
+
+/* benefit 4 */
+
+.ben4 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: -843px;
+    left: 1210px;
+}
+
+.ico4 {
+    position: relative;
+    background-image: url("../img/ico4.png");
+    background-repeat: no-repeat;
+    height: 43px;
+}
+
+.head4 {
+    position: relative;
+    font-size: 16pt;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+    top: 30px;
+}
+
+.inf4 {
+    position: relative;
+    font-size: 14pt;
+    width: 298px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+    top: 60px;
+}
+
+.prepVax {
+    height: 798px;
+}
+
+.prepImg {
+    position: relative;
+    width: 543px;
+    height: 798px;
+    background-image: url("../img/prep.png");
+    background-repeat: no-repeat;
+}
+
+.prepTitle {
+    position: relative;
+    font-size: 40pt;
+    width: 730px;
+    left: 650px;
+    top: -730px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+}
+
+.prepTxt {
+    position: relative;
+    font-size: 20pt;
+    width: 600px;
+    top: -720px;
+    left: 660px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.beverages {
+    position: relative;
+    width: 475px;
+    height: 45px;
+    top: -680px;
+    left: 700px;
+    background-image: url("../img/beverages.png");
+    background-repeat: no-repeat;
+}
+
+.stressImg {
+    position: relative;
+    width: 475px;
+    height: 45px;
+    top: -650px;
+    left: 700px;
+    background-image: url("../img/stress.png");
+    background-repeat: no-repeat;
+}
+
+.stressTxt {
+    position: relative;
+    font-size: 13pt;
+    width: 400px;
+    top: -630px;
+    left: 750px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.health {
+    position: relative;
+    width: 475px;
+    height: 45px;
+    top: -600px;
+    left: 700px;
+    background-image: url("../img/food.png");
+    background-repeat: no-repeat;
+}
+
+.sleep {
+    position: relative;
+    width: 475px;
+    height: 45px;
+    top: -590px;
+    left: 700px;
+    background-image: url("../img/sleep.png");
+    background-repeat: no-repeat;
+}
+
+.activity {
+    position: relative;
+    width: 475px;
+    height: 45px;
+    top: -550px;
+    left: 700px;
+    background-image: url("../img/activity.png");
+    background-repeat: no-repeat;
+}
+
+.contact {
+    height: 400px;
+}
+
+.contactTitle {
+    position: relative;
+    font-size: 40pt;
+    width: 730px;
+    left: 150px;
+    top: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(73, 73, 138);
+}
+
+.contactTxt {
+    position: relative;
+    font-size: 18pt;
+    width: 600px;
+    left: 150px;
+    top: 100px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.contacts {
+    height: 700px;
+}
+
+.docCall {
+    position: relative;
+    width: 568px;
+    height: 595px;
+    top: 50px;
+    left: 920px;
+    background-image: url("../img/contact.png");
+    background-repeat: no-repeat;
+}
+
+.callImg {
+    position: relative;
+    width: 265px;
+    height: 110px;
+    top: -430px;
+    left: 100px;
+    background-image: url("../img/call.png");
+    background-repeat: no-repeat;
+}
+
+.callTxt {
+    position: relative;
+    width: 265px;
+    height: 70px;
+    top: -430px;
+    left: 100px;
+    background-color: rgb(168, 168, 235);
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(24, 25, 97);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.chatImg {
+    position: relative;
+    width: 265px;
+    height: 110px;
+    top: -600px;
+    left: 500px;
+    background-image: url("../img/chat.png");
+    background-repeat: no-repeat;
+}
+
+.chatTxt {
+    position: relative;
+    width: 265px;
+    height: 70px;
+    top: -600px;
+    left: 500px;
+    background-color: rgb(35, 35, 109);
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.videoImg {
+    position: relative;
+    width: 265px;
+    height: 110px;
+    top: -550px;
+    left: 100px;
+    background-image: url("../img/videoCall.png");
+    background-repeat: no-repeat;
+}
+
+.videoTxt {
+    position: relative;
+    width: 265px;
+    height: 70px;
+    top: -550px;
+    left: 100px;
+    background-color: rgb(168, 168, 235);
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(24, 25, 97);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.messageImg {
+    position: relative;
+    width: 265px;
+    height: 110px;
+    top: -720px;
+    left: 500px;
+    background-image: url("../img/message.png");
+    background-repeat: no-repeat;
+}
+
+.messageTxt {
+    position: relative;
+    width: 265px;
+    height: 70px;
+    top: -720px;
+    left: 500px;
+    background-color: rgb(35, 35, 109);
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.piePag {
+    position: relative;
+    height: 510px;
+    top: 100px;
+    background-color: rgb(25, 32, 129);
+}
+
+.pieTitle {
+    position: absolute;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+    top: 50px;
+    left: 150px;
+}
+
+.pieTxt {
+    position: relative;
+    font-size: 18pt;
+    width: 300px;
+    left: 150px;
+    top: 150px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.copy {
+    position: relative;
+    font-size: 18pt;
+    width: 450px;
+    left: 150px;
+    top: 350px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.terms {
+    position: relative;
+    font-size: 18pt;
+    width: 450px;
+    left: 900px;
+    top: 310px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.priv {
+    position: relative;
+    font-size: 18pt;
+    width: 450px;
+    left: 1200px;
+    top: 280px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.flex1 {
+    position: relative;
+    display: flex;
+    left: 800px;
+    top: -120px;
+}
+
+.flex1 div {
+    position: relative;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 190);
+}
+
+.flex2 {
+    position: relative;
+    display: flex;
+    left: 830px;
+    top: -140px;
+}
+
+.flex2 div {
+    position: relative;
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.flex3 {
+    position: relative;
+    display: flex;
+    left: 830px;
+    top: -140px;
+}
+
+.flex3 div {
+    position: relative;
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
+
+.flex4 {
+    position: relative;
+    display: flex;
+    left: 830px;
+    top: -140px;
+}
+
+.flex4 div {
+    position: relative;
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 167);
+}
