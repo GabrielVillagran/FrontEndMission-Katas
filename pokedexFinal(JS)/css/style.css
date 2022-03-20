@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://th.bing.com/th/id/OIP.QSAqBVFa3dbOL9BkDk2RUAAAAA?pid=ImgDet&rs=1");
+}
+
+.pokeDevice {
+    position: absolute;
+    top: 80px;
+    left: 340px;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f0c4fb1f-b8b1-4bf3-9d6e-a765283ca1ca/d5imu6t-44ac7abe-48c4-406d-b257-601f0cd8e028.png/v1/fill/w_900,h_637,q_75,strp/pokedex_vector_style_by_cristopheros-d5imu6t.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mMGM0ZmIxZi1iOGIxLTRiZjMtOWQ2ZS1hNzY1MjgzY2ExY2EvZDVpbXU2dC00NGFjN2FiZS00OGM0LTQwNmQtYjI1Ny02MDFmMGNkOGUwMjgucG5nIiwid2lkdGgiOiI8PTkwMCIsImhlaWdodCI6Ijw9NjM3In1dXX0.oxtLEYj8Ie_n7CKjYI5KyvWGZc3snpPsWFA03WCR48I");
+    width: 900px;
+    height: 637px;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.form input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    border: none;
+    outline: 0px;
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.searchPoke {
+    position: absolute;
+    top: 370px;
+    left: 310px;
+}
+
+.pokeImg {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+.searchBttn {
+    position: absolute;
+    top: 390px;
+    left: 500px;
+}
+
+.bttn {
+    width: 80px;
+    height: 30px;
+    background: none;
+    color: #000;
+    border: 0px;
+}
+
+.bttn svg {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 0px;
+    left: 0px;
+    fill: none;
+}
+
+.bttn rect {
+    width: 80px;
+    height: 30px;
+    stroke: black;
+    stroke-width: 8px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    transition: .8s ease all;
+}
+
+.bttn:hover rect {
+    stroke-dashoffset: 0;
+}
+
+.datosPokemon {
+    position: absolute;
+    top: 430px;
+    left: 300px;
+    width: 290px;
+    height: 170px;
+    /* border: solid 2px black; */
+}
+
+.names {
+    position: absolute;
+    font-size: 14pt;
+    left: 5px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}
+
+.moves {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}
+
+.stats {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}
+
+.stats2 {
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}
+
+.stats3 {
+    position: absolute;
+    top: 140px;
+    left: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}
+
+.stats4 {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}
+
+.stats5 {
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}
+
+.stats6 {
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}
+
+.types {
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 105, 105);
+}

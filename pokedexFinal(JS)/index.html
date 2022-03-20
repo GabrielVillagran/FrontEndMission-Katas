@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title> Pokedex by LaunchX </title>
+</head>
+
+<body>
+    <!--audio -->
+    <embed src="/music/PokeSong.mp3" autostarty="true" loop="true" volume="60" hidden="true">
+    <div class="pokeDevice">
+        <!-- Barra de busqueda de pokemon -->
+        <div class="searchPoke">
+            <form class="form">
+                <input type="text" placeholder="Buscar pokémon" id="pokeName" name="pokeName" autocomplete="off">
+            </form>
+        </div>
+        <!-- Imagen de pokemon enconctrada -->
+        <div class="pokeImg">
+            <img src="https://th.bing.com/th/id/R.d9ecc5bcaac069cbaa40faea6226acc9?rik=M8OqdP%2bJ9lFbLw&pid=ImgRaw&r=0" alt="imagen" id="pokeImg" width="210px" height="210px">
+        </div>
+        <!-- boton de busqueda -->
+        <div class="searchBttn">
+            <button class="bttn" onclick="fetchPokemon()">
+                <span>Buscar</span>
+                <svg>
+                    <rect x="0" y="0" fill="none"></rect>
+                </svg>
+            </button>
+        </div>
+        <!-- datos -->
+        <div datosPokemon class="datosPokemon">
+            <div poke-name class="names">Nombre</div>
+            <div poke-moves class="moves ">Movimientos</div>
+            <div poke-types class="types ">Tipo</div>
+            <div poke-stats class="stats ">Estadisticas</div>
+            <div poke-stats2 class="stats2 ">Estadisticas</div>
+            <div poke-stats3 class="stats3 ">Estadisticas</div>
+            <div poke-stats4 class="stats4 ">Estadisticas</div>
+            <div poke-stats5 class="stats5 ">Estadisticas</div>
+            <div poke-stats6 class="stats6 ">Estadisticas</div>
+        </div>
+    </div>
+</body>
+<!-- Carga documento JS -->
+<footer>
+    <script src="/js/pokedex.js "></script>
+</footer>
+
+</html>
